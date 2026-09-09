@@ -1,102 +1,130 @@
-# Hi, I'm Sourav 👋
+# Hi, I'm Sourav Mane 👋
 
-### AI Engineer · Agentic Systems · AI Workflows · Automation
+### AI Engineer · AI Agents · Agentic Workflows · Automation
 
 I build intelligent AI systems that turn complex and repetitive workflows into useful, production-ready products.
 
-My focus is on **AI agents, multi-agent systems, LLM orchestration, RAG pipelines, agentic workflows, and production AI deployment**.
+My work focuses on **AI agents, multi-agent systems, LLM orchestration, RAG pipelines, agentic workflows, and production AI deployment** — taking systems from architecture and experimentation to evaluation and live deployment.
 
-I enjoy taking an idea from **agent architecture → implementation → evaluation → deployment** and building systems that can actually perform useful work.
+I enjoy building AI that doesn't just generate responses, but can **reason, use tools, interact with systems, and perform meaningful work.**
 
 ---
-## 📫 Connect With Me
 
-**LinkedIn:** https://linkedin.com/in/sourav-mane-9388a7374
+## 📬 Contact
 
 **Email:** [souravkmane@gmail.com](mailto:souravkmane@gmail.com)
+**LinkedIn:** [linkedin.com/in/sourav-mane-9388a7374](https://linkedin.com/in/sourav-mane-9388a7374)
+**Resume:** [View Resume](#)
+**Website:**
 
 ---
+
 ## 🚀 What I Build
 
-* 🤖 **AI Agents & Multi-Agent Systems**
-* 🔄 **Agentic Workflows & LLM Pipelines**
-* 🧠 **RAG & Semantic Search Systems**
-* 🛠️ **Tool-Calling & API Orchestration**
-* 👨‍💻 **Human-in-the-Loop AI Systems**
-* 📊 **LLM Evaluation & Observability**
-* ⚙️ **Production AI Applications**
-* 🔗 **AI-powered Automation & Integrations**
+**🤖 AI Agents & Multi-Agent Systems**
+Designing agents that can reason, delegate, use tools, and execute tasks through structured workflows.
+
+**🔄 Agentic Workflows & LLM Pipelines**
+Building reliable workflows with graph-based orchestration, conditional routing, structured outputs, and guardrails.
+
+**🧠 RAG & Semantic Search**
+Grounding LLM applications with vector search, embeddings, semantic retrieval, and contextual knowledge.
+
+**🛠️ Tool-Calling & API Orchestration**
+Connecting AI systems with external APIs, developer tools, data sources, and real-world systems.
+
+**👨‍💻 Human-in-the-Loop Systems**
+Designing AI workflows where human checkpoints are used when judgment, approval, or intervention is required.
+
+**📊 Evaluation & Observability**
+Tracing, monitoring, debugging, and systematically evaluating AI pipelines to improve reliability.
+
+**⚙️ Production AI Applications**
+Shipping complete AI products — from backend architecture and agent logic to frontend, infrastructure, and deployment.
 
 ---
 
-## 🧩 Featured Projects
+# 🧩 Featured Projects
 
-### 🔹 Prism — AI Software Engineering Teammate
+## 🔹 Prism
 
-A production multi-agent system designed to take software engineering issues and turn them into grounded implementation plans and GitHub PR drafts.
+### Production Multi-Agent Software Engineering Teammate
 
-**Built with:**
-`LangGraph` · `LangChain` · `LangSmith` · `Python` · `FastAPI` · `Modal` · `Supabase pgvector` · `Next.js` · `PyGitHub`
+Prism is a multi-agent AI system that transforms software engineering issues into grounded implementation plans, executes and validates changes, and generates GitHub PR drafts.
 
-**Key engineering concepts:**
+**Architecture**
 
-* 6-agent orchestration pipeline
-* Human-in-the-Loop checkpoints
-* Conditional graph routing
-* RAG-powered codebase navigation
-* Isolated test execution
-* LangSmith observability
-* Automated GitHub PR generation
+`Planner → Code Navigator → Test Runner → Debugger → PR Summarizer`
+
+**Built with**
+
+`Python` · `LangGraph` · `LangChain` · `LangSmith` · `FastAPI` · `Modal` · `Supabase pgvector` · `Next.js` · `PyGitHub`
+
+**Engineering Highlights**
+
+* Architected a **6-agent LangGraph pipeline** with deterministic conditional routing.
+* Implemented **Human-in-the-Loop checkpoints** for engineering plan approval.
+* Built a **RAG-powered Code Navigator** using embeddings and Supabase pgvector to ground agents in repository-level code context.
+* Added isolated **Modal.Sandbox test execution** with automatic pytest, unittest, and Jest detection.
+* Implemented **LangSmith tracing and observability** across the agent pipeline.
+* Automated GitHub PR generation through PyGitHub.
+* Designed security around **zero-persistence GitHub PAT handling**.
 
 🔗 **Live:** https://prism-beta-one.vercel.app/
 
 ---
 
-### 🔹 Signal — Startup & Funding Intelligence Agent
+## 🔹 Signal
 
-An autonomous AI system that gathers, processes, evaluates, and organizes startup and funding intelligence from multiple data sources.
+### Autonomous Startup & Funding Intelligence Agent
 
-**Built with:**
-`LangGraph` · `LangChain` · `LangSmith` · `GPT-4o` · `GPT-4o-mini` · `Tavily` · `Supabase pgvector` · `Vercel`
+Signal is an autonomous AI system that collects, processes, evaluates, and organizes startup and funding intelligence from multiple sources.
 
-**Key engineering concepts:**
+**Built with**
 
-* 15-node autonomous workflow
-* Parallel multi-source execution
-* Tool calling
-* Structured extraction
-* Guardrails and interrupts
-* Semantic memory
-* Duplicate detection
-* LLM evaluation and prompt iteration
+`Python` · `LangGraph` · `LangChain` · `LangSmith` · `GPT-4o` · `GPT-4o-mini` · `Tavily` · `Supabase pgvector` · `Vercel`
+
+**Engineering Highlights**
+
+* Architected a **15-node autonomous LangGraph pipeline**.
+* Implemented parallel execution across multiple data sources.
+* Added tool calling and structured information extraction.
+* Used `interrupt()` guardrails to control critical workflow stages.
+* Built semantic memory using **Supabase pgvector**.
+* Implemented similarity-based duplicate detection.
+* Iterated prompt engineering across multiple versions and used LangSmith traces for root-cause analysis.
+* Designed a dual-model architecture using GPT-4o and GPT-4o-mini.
 
 🔗 **Live:** https://signal-topaznu.vercel.app/
 
 ---
 
-### 🔹 Grape Guru — Voice AI for Indian Agriculture
+## 🔹 Grape Guru
 
-A production conversational AI application that combines voice, RAG, vision, weather intelligence, and multilingual interaction to support Indian farmers.
+### Voice-Enabled Conversational AI for Indian Agriculture
 
-**Built with:**
-`Next.js` · `TypeScript` · `OpenAI Whisper` · `GPT-4o mini` · `Vision API` · `Supabase pgvector` · `OpenWeather API`
+Grape Guru is a production conversational AI application combining voice interaction, RAG, vision, weather intelligence, and multilingual support for Indian agriculture.
 
-**Key engineering concepts:**
+**Built with**
 
-* Speech-to-text → LLM → response pipeline
-* Multilingual voice interaction
-* Multi-turn and multi-intent conversations
-* RAG over agricultural knowledge
-* Disease detection
-* Weather intelligence
-* Structured output guardrails
-* Production QA across real farming scenarios
+`Next.js` · `TypeScript` · `OpenAI Whisper` · `GPT-4o mini` · `Vision API` · `Supabase pgvector` · `OpenWeather API` · `Vercel`
+
+**Engineering Highlights**
+
+* Built an end-to-end **speech → LLM → response** pipeline using OpenAI Whisper.
+* Designed multilingual voice interaction for Indian users.
+* Implemented multi-turn, multi-intent conversations.
+* Built RAG over agricultural knowledge sources.
+* Integrated vision-based disease detection.
+* Added real-time weather intelligence through OpenWeather API.
+* Implemented structured output guardrails.
+* Validated the application across **40+ real farming scenarios**.
 
 🔗 **Live:** https://grape-guru.vercel.app/
 
 ---
 
-## 🛠️ Technical Stack
+# 🛠️ Technical Skills
 
 ### AI & Agent Engineering
 
@@ -124,23 +152,43 @@ A production conversational AI application that combines voice, RAG, vision, wea
 
 ---
 
-## 🎓 What I'm Currently Focused On
+# 🧠 Engineering Focus
 
-Building deeper expertise in:
+I'm particularly interested in building AI systems that are:
 
-**Multi-Agent Systems · LLM Orchestration · Agentic Workflows · RAG · AI Evaluation · Production AI Infrastructure**
-
----
-
-## 📜 Certifications
-
-* Building with the Claude API — Anthropic
-* AI Fluency and Framework — Anthropic
-* Building with MCP — Anthropic
-* Prompt Engineering for Developers — DeepLearning.AI
-* Google Project Management Certificate — Coursera
-* McKinsey Forward Learning Program — McKinsey & Company
+* **Useful** — solving real problems rather than simply demonstrating LLM capabilities.
+* **Reliable** — grounded with retrieval, validation, guardrails, and evaluation.
+* **Observable** — traceable enough to understand why an agent succeeded or failed.
+* **Composable** — designed as workflows and systems rather than isolated prompts.
+* **Production-ready** — capable of moving beyond prototypes into deployed products.
 
 ---
 
-> **Build intelligent systems. Automate meaningful work. Ship to production.**
+# 📜 Certifications
+
+* **Building with the Claude API** — Anthropic
+* **AI Fluency and Framework** — Anthropic
+* **Building with MCP** — Anthropic
+* **Prompt Engineering for Developers** — DeepLearning.AI
+* **Google Project Management Certificate** — Coursera
+* **McKinsey Forward Learning Program** — McKinsey & Company
+
+---
+
+# 📈 Currently Exploring
+
+**Multi-Agent Systems · LLM Orchestration · Agentic Workflows · RAG · AI Evaluation · AI Infrastructure · MCP · AI Automation**
+
+---
+
+## 💭 My Approach
+
+> **Build systems, not just prompts.**
+> **Ground intelligence in real context.**
+> **Evaluate before trusting.**
+> **Ship what creates real value.**
+
+---
+
+⭐ If you're interested in AI agents, intelligent automation, or building production AI systems, feel free to reach out.
+
