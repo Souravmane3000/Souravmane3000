@@ -9,7 +9,13 @@ My focus is on **AI agents, multi-agent systems, LLM orchestration, RAG pipeline
 I enjoy taking an idea from **agent architecture → implementation → evaluation → deployment** and building systems that can actually perform useful work.
 
 ---
+## 📫 Connect With Me
 
+**LinkedIn:** https://linkedin.com/in/sourav-mane-9388a7374
+
+**Email:** [souravkmane@gmail.com](mailto:souravkmane@gmail.com)
+
+---
 ## 🚀 What I Build
 
 * 🤖 **AI Agents & Multi-Agent Systems**
@@ -134,13 +140,6 @@ Building deeper expertise in:
 * Prompt Engineering for Developers — DeepLearning.AI
 * Google Project Management Certificate — Coursera
 * McKinsey Forward Learning Program — McKinsey & Company
-
----
-
-## 📫 Connect With Me
-
-**LinkedIn:** linkedin.com/in/sourav-mane-9388a7374
-**Email:** [souravkmane@gmail.com](mailto:souravkmane@gmail.com)
 
 ---
 
